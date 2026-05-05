@@ -1,6 +1,6 @@
 # Kamino Finance Flash Loan
 
-A basic implementation of flash loans using Kamino Finance's lending protocol on Solana.
+A basic implementation of a flash loan using Kamino Finance's lending protocol on Solana.
 
 ## Prerequisites
 
