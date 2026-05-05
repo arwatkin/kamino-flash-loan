@@ -1,0 +1,34 @@
+{
+  "name": "kamino-flash-loan",
+  "version": "1.0.0",
+  "description": "Kamino Finance Flash Loan Example for Solana",
+  "main": "dist/flash-loan.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/flash-loan.js",
+    "dev": "tsc && node dist/flash-loan.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "solana",
+    "flash-loan",
+    "kamino",
+    "defi",
+    "kamino-finance",
+    "spl-token"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@kamino-finance/farms-sdk": "^3.2.25",
+    "@kamino-finance/klend-sdk": "^7.3.22",
+    "@solana/web3.js": "^1.98.4",
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+lib/
+
+# Environment variables (NEVER commit real keys)
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Environment example is OK to commit (contains placeholders)
+# .env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Editor directories
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.output/
+.vercel/
+.turbo/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Lock files (optional - some prefer to commit these for deterministic builds)
+# If you want to commit lock files, remove these:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+package-lock.json.save
+
+# OS-specific gitattributes (optional)
+.gitattributes
+
+# Secrets and sensitive data (additional patterns)
+*.pem
+*.key
+credentials.json
+secrets.json
