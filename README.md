@@ -14,7 +14,7 @@ A basic implementation of a flash loan using Kamino Finance's lending protocol o
 
    ```bash
    git clone <repository-url>
-   cd kamino-flashloan
+   cd kamino-flash-loan
    ```
 
 2. **Install dependencies**
@@ -57,6 +57,6 @@ This will build the TypeScript and execute the flash loan.
 
 ## Example Transaction
 
-An example of a flash loan transaction on Solana:
+An example of a successful flash loan transaction using this repo:
 
 [https://solscan.io/tx/3kEGZSYg7t2rWpzRTE5oguQRxFSq9fxh7VavupRG9fufcgV67274jM5jmJ5AjP6Kruif6SDzoB6vFyktG6Mijdey](https://solscan.io/tx/3kEGZSYg7t2rWpzRTE5oguQRxFSq9fxh7VavupRG9fufcgV67274jM5jmJ5AjP6Kruif6SDzoB6vFyktG6Mijdey)
